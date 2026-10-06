@@ -1,0 +1,7 @@
+interface:
+  display_name: "白黃紅手繪黑板風格"
+  short_description: "深綠黑板底、白黃紅線稿的繁體中文手繪教學簡報風格"
+  default_prompt: "Use $white-yellow-red-handdrawn-blackboard to apply the white, yellow, and red hand-drawn blackboard style to this presentation."
+
+policy:
+  allow_implicit_invocation: true
