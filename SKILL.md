@@ -10,9 +10,10 @@ Use this skill as a style lock for a Traditional Chinese educational or explanat
 ## Visual system
 
 - Canvas: 16:9; for image-first production use 1920×1080.
-- Background: deep forest green / chalkboard green with restrained paper, pencil, or crayon grain. Keep the field mostly flat and calm so text remains readable.
-- Linework: white is the primary hand-drawn line; yellow and red are reserved for emphasis, outlines, arrows, underlines, warning marks, and small fills. Use slightly uneven chalk/pencil strokes rather than polished vector geometry.
+- Background: deep forest green / chalkboard green with restrained paper, pencil, or crayon grain. Keep the field mostly flat and calm so text remains readable; white speckles and bright noise must be sparse.
+- Linework: white is the primary hand-drawn line; yellow and red are reserved for small emphasis marks, outlines, arrows, underlines, warning marks, and limited fills. Use slightly uneven chalk/pencil strokes rather than polished vector geometry.
 - Illustrations: simple symbolic scenes, gestures, objects, and diagrams. Prefer white/red/yellow line drawings with limited fill. Do not aim for photorealism or glossy cartoon rendering.
+- Human figures: render the figure as a white chalk line drawing. Exposed skin areas—face, ears, neck, hands, and forearms—must remain the same deep green as the board, with no white or gray fill. Keep only a few minimal white interior strokes for facial features, fingers, and essential contours; avoid dense hatching or realistic shading. Hair, glasses, pen, clothing outlines, and a few key clothing folds may use white chalk strokes. Do not add a decorative horizontal baseline beneath the figure unless the user explicitly requests one.
 - Typography: Traditional Chinese only unless the source requires otherwise. Use large, high-contrast white text; use yellow/red only for hierarchy and emphasis. Protect a clean text zone and never let illustration strokes cross or obscure text.
 - Page number: small hand-written white or yellow number at the bottom-right when page numbers are requested. Do not invent labels, facts, or decorative English text.
 
@@ -29,16 +30,17 @@ Choose the recipe that matches the requested content; do not force the source in
 
 ## Image-generation direction
 
-When generating backgrounds or illustrations, describe the scene, layout, and protected text zones explicitly. Use wording such as “deep green chalkboard background, white primary hand-drawn linework, small yellow and red accent strokes, restrained pencil/crayon texture, no embedded text.” Keep generated imagery free of logos, watermarks, fake glyphs, random English, and unapproved labels; add exact Traditional Chinese text in the presentation layer when possible.
+When generating backgrounds or illustrations, describe the scene, layout, and protected text zones explicitly. Use wording such as “deep green chalkboard background with very subtle dark texture and almost no white speckles, white primary hand-drawn chalk linework, sparse yellow and red accent strokes, exposed skin areas showing the green board through, minimal facial and finger strokes, no embedded text.” Keep generated imagery free of logos, watermarks, fake glyphs, random English, and unapproved labels; add exact Traditional Chinese text in the presentation layer when possible.
 
 ## Quality gate
 
 Before delivery, inspect representative pages and the final rendered output:
 
-1. Confirm the green/white/yellow/red style is consistent across all pages.
+1. Confirm the green/white/yellow/red style is consistent across all pages and the board does not have excessive white speckles.
 2. Confirm every approved Traditional Chinese string is legible and not covered by illustration.
-3. Confirm worksheets and tests retain writing room; question boxes have no interior ruling by default.
-4. Confirm there are no accidental style substitutions, random text, simplified Chinese, logos, watermarks, or invented source claims.
-5. Confirm the requested output format, page count, and file set separately; this style skill does not silently change those requirements.
+3. Confirm human-figure skin is green negative space with only minimal interior chalk strokes; the main text and graphics remain primarily white.
+4. Confirm worksheets and tests retain writing room; question boxes have no interior ruling by default.
+5. Confirm there are no accidental style substitutions, random text, simplified Chinese, logos, watermarks, or invented source claims.
+6. Confirm the requested output format, page count, and file set separately; this style skill does not silently change those requirements.
 
 This skill is intentionally visual-only. For source extraction, page architecture, assessment design, or PDF/PPTX production, use the relevant document or presentation workflow in addition to this style lock.
