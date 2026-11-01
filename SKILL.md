@@ -32,6 +32,7 @@ Use this skill as a style lock for a Traditional Chinese educational or explanat
 - Text must be high-resolution, crisp, and readable at 1920×1080. Keep the chalk texture inside the glyphs; do not scatter white dust, white dots, or chalk noise around the text.
 - Use large white text as the default. Use yellow/red only for hierarchy and emphasis, never as a substitute for missing text contrast.
 - Protect a clean text zone. Illustration strokes, arrows, film frames, characters, icons, and background motifs must not cross or visually compete with text.
+- Page-layout order: every page first establishes a protected text-safe zone, then places chalk icons and process diagrams around it. 每頁會先排文字安全區，再配置粉筆圖示與流程圖，避免插畫穿字或留下過多空白。
 - Use underlines as intentional hand-drawn hierarchy marks. Each underline must sit directly beneath its own heading or row, remain visually separate from glyphs, and never drift into an unrelated illustration or empty area.
 - When a page has repeated rows, align the markers, text baselines, and underlines to one clear rhythm. Keep symbols and metrics in the same card or lane as their associated text.
 - Page number: small hand-written white or yellow number at the bottom-right when page numbers are requested. Do not invent labels, facts, or decorative English text.
@@ -64,9 +65,10 @@ Before delivery, inspect representative pages and the final rendered output:
 5. Confirm underlines and colored accents sit in the intended hierarchy position and do not cross text or collide with background art.
 6. Confirm repeated rows, markers, metrics, cards, and lanes are aligned and have adequate breathing room.
 7. Confirm human figures use the reference's detailed chalk portrait / gesture language rather than simplified icons; confirm exposed skin is green negative space with only minimal interior chalk strokes, while hair, clothing, and props may carry selective chalk hatching.
-8. Confirm worksheets and tests retain writing room; question boxes have no interior ruling by default.
-9. Confirm there are no accidental style substitutions, random text, simplified Chinese, logos, watermarks, or invented source claims.
-10. Confirm the requested output format, page count, and file set separately; this style skill does not silently change those requirements.
+8. Confirm each page establishes the text-safe zone before placing chalk icons or process diagrams; confirm illustrations do not cross text and the page does not leave excessive empty space without a purposeful visual role.
+9. Confirm worksheets and tests retain writing room; question boxes have no interior ruling by default.
+10. Confirm there are no accidental style substitutions, random text, simplified Chinese, logos, watermarks, or invented source claims.
+11. Confirm the requested output format, page count, and file set separately; this style skill does not silently change those requirements.
 
 This skill is intentionally visual-only. For source extraction, page architecture, assessment design, or PDF/PPTX production, use the relevant document or presentation workflow in addition to this style lock.
 
