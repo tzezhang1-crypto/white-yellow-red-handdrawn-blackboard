@@ -21,6 +21,7 @@ Use this skill as a style lock for a Traditional Chinese educational or explanat
 - Background: deep forest green / chalkboard green with the visible but restrained paper, pencil, or crayon grain shown in the reference. Keep the central text field calmer than the edges; white speckles and bright noise must be sparse.
 - Linework: white is the primary hand-drawn line. Match the reference's layered, slightly uneven chalk/pencil strokes, contour variation, small scratch marks, and selective hatching. Yellow and red are reserved for small emphasis marks, outlines, arrows, underlines, warning marks, and limited fills. Do not use polished vector geometry as the dominant visual language.
 - Illustrations: use detailed chalk line drawings for people, objects, and explanatory scenes. Symbolic diagrams are allowed, but they must still carry the reference's chalk texture and line density. Do not substitute glossy cartoon rendering, flat UI icons, or low-detail pictograms for the reference style.
+- Illustration-area limit: the combined visual area of concrete background illustrations—people, objects, scene linework, film frames, and process drawings—must not exceed one third of the page. Treat separated illustration fragments as one combined total; do not bypass the limit by scattering many small drawings. The remaining area must protect the text-safe zone and readable instructional content. The full-page blackboard texture is not counted as an illustration.
 - Human figures: when people appear, use the reference's expressive adult half-body / portrait-like chalk vocabulary with readable hair, facial contour, clothing, gesture, and selective interior hatching. Exposed skin areas—face, ears, neck, hands, and forearms—must remain the same deep green as the board, with no white or gray fill. Keep interior facial and finger strokes selective and minimal; reserve denser hatching for hair, clothing, props, and non-skin areas. Do not add a decorative horizontal baseline beneath the figure unless the user explicitly requests one.
 
 ## Typography and composition lock
@@ -33,6 +34,7 @@ Use this skill as a style lock for a Traditional Chinese educational or explanat
 - Use large white text as the default. Use yellow/red only for hierarchy and emphasis, never as a substitute for missing text contrast.
 - Protect a clean text zone. Illustration strokes, arrows, film frames, characters, icons, and background motifs must not cross or visually compete with text.
 - Page-layout order: every page first establishes a protected text-safe zone, then places chalk icons and process diagrams around it. 每頁會先排文字安全區，再配置粉筆圖示與流程圖，避免插畫穿字或留下過多空白。
+- Illustration placement: keep the total background-illustration footprint within one third of the page, preferably in a single side or lower-corner cluster; never enlarge an illustration until it competes with the title, body text, or safe zone.
 - Use underlines as intentional hand-drawn hierarchy marks. Each underline must sit directly beneath its own heading or row, remain visually separate from glyphs, and never drift into an unrelated illustration or empty area.
 - When a page has repeated rows, align the markers, text baselines, and underlines to one clear rhythm. Keep symbols and metrics in the same card or lane as their associated text.
 - Page number: small hand-written white or yellow number at the bottom-right when page numbers are requested. Do not invent labels, facts, or decorative English text.
@@ -41,7 +43,7 @@ Use this skill as a style lock for a Traditional Chinese educational or explanat
 
 Choose the recipe that matches the requested content; do not force the source into a fixed page count.
 
-- Cover / closing page: full-bleed hand-drawn scene with a protected title area and sparse text.
+- Cover / closing page: deep-green textured board with a hand-drawn illustration cluster limited to one third of the page, plus a dominant protected title area and sparse text.
 - Story map: central symbol with four directional concept nodes and hand-drawn connectors.
 - Teaching/content page: title and concise text on the left, illustration or visual explanation on the right; use a triptych or process visual only when the content needs it.
 - Summary page: two clear cards or a bridge/relationship diagram with generous spacing.
@@ -66,9 +68,10 @@ Before delivery, inspect representative pages and the final rendered output:
 6. Confirm repeated rows, markers, metrics, cards, and lanes are aligned and have adequate breathing room.
 7. Confirm human figures use the reference's detailed chalk portrait / gesture language rather than simplified icons; confirm exposed skin is green negative space with only minimal interior chalk strokes, while hair, clothing, and props may carry selective chalk hatching.
 8. Confirm each page establishes the text-safe zone before placing chalk icons or process diagrams; confirm illustrations do not cross text and the page does not leave excessive empty space without a purposeful visual role.
-9. Confirm worksheets and tests retain writing room; question boxes have no interior ruling by default.
-10. Confirm there are no accidental style substitutions, random text, simplified Chinese, logos, watermarks, or invented source claims.
-11. Confirm the requested output format, page count, and file set separately; this style skill does not silently change those requirements.
+9. Measure the combined footprint of concrete background illustrations on every page; confirm it is no more than one third of the page, excluding only the full-page blackboard texture.
+10. Confirm worksheets and tests retain writing room; question boxes have no interior ruling by default.
+11. Confirm there are no accidental style substitutions, random text, simplified Chinese, logos, watermarks, or invented source claims.
+12. Confirm the requested output format, page count, and file set separately; this style skill does not silently change those requirements.
 
 This skill is intentionally visual-only. For source extraction, page architecture, assessment design, or PDF/PPTX production, use the relevant document or presentation workflow in addition to this style lock.
 
