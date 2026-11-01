@@ -1,11 +1,24 @@
 ---
 name: white-yellow-red-handdrawn-blackboard
-description: "Apply a Traditional Chinese 16:9 presentation style with a deep green blackboard background, white primary linework, and yellow/red hand-drawn accents. Use when the user requests the 白黃紅手繪黑板風格 or this specific visual template; this skill supplies visual direction only, not article content or a fixed page count."
+description: "Apply a Traditional Chinese 16:9 presentation style with a deep green blackboard background, white primary linework, and yellow/red hand-drawn accents. Use when the user requests the 白黃紅手繪黑板風格 or this specific visual template; before generation, confirm the page count, obtain approval for the page-by-page outline, and get approval on one sample page before batch generation. This skill supplies visual direction only, not article content or a fixed page count."
 ---
 
 # 白黃紅手繪黑板風格
 
 Use this skill as a style lock for a Traditional Chinese educational or explanatory presentation. It is derived only from the final hand-drawn green-background template; do not import the earlier JDN editorial, academic clean, Japanese picture-book, or other style systems.
+
+## 生成前核准流程
+
+這是生成前的必要閘門，不得跳過：
+
+1. 在開始任何圖片、投影片背景、簡報頁面或其他成品生成前，先向使用者確認要產生的頁數；不得自行猜測、沿用來源頁數或以固定頁數代替。若使用者已提供頁數，也要明確覆述並請使用者確認。
+2. 依確認的頁數提出逐頁大綱供核准。每頁至少列出：頁碼、頁面標題、教學／敘事功能、預計放置的核准文字重點，以及符合本風格的插畫或版面方向。大綱階段只規劃，不生成圖片或簡報。
+3. 必須取得使用者對每一頁大綱的明確核准後，才可進入生成階段。未核准的頁面不得先做背景、插畫、排版或批次生成；若使用者只核准部分頁面，僅可繼續處理已核准頁面，除非使用者要求等待全部核准。
+4. 大綱核准後，先只生成一頁樣張；預設使用第 1 頁，除非使用者指定其他代表頁。樣張必須完整呈現該頁的文字層級、版面、插畫比例、色彩與粉筆質感，然後停下來請使用者確認風格與版型。未取得樣張明確核准前，不得批次生成其餘頁面。
+5. 使用者對樣張提出修改時，先修改並重新生成樣張，再次取得明確核准後才能繼續。樣張核准後，將其視為全套頁面的視覺基準；若後續頁面需要改變整體字體、構圖語言、插畫比例或色彩規則，先停下來請使用者重新核准。
+6. 使用者提出頁面內容修改時，先更新受影響頁面的大綱並再次請核准；核准後的頁數、頁序、標題、文字重點與頁面功能視為製作鎖定內容。生成過程中若發現必須改動這些項目，先停下來請使用者重新核准。
+
+這項流程只控制製作時序與使用者核准，不限制使用者自行指定的輸出格式、素材來源或後續修改方式。
 
 ## Reference example
 
